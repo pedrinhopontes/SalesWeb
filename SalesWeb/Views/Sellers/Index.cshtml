@@ -6,6 +6,10 @@
 
 <h1>@ViewData["Title"]</h1>
 
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
 <table class="table table-striped table hover">
     <thead>
         <tr class="success">
@@ -35,7 +39,7 @@
                     @Html.DisplayFor(modelItem => item.Email)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.BirthDate)SellerService and basic FindAll
+                    @Html.DisplayFor(modelItem => item.BirthDate)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.BaseSalary)
