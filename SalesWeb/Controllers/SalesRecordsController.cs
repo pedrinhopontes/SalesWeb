@@ -3,11 +3,11 @@ using SalesWeb.Services;
 
 namespace SalesWeb.Controllers
 {
-    public class SalesRecordsContoller : Controller
+    public class SalesRecordsController : Controller
     {
         private readonly SalesRecordService _salesRecordService;
 
-        public SalesRecordsContoller(SalesRecordService salesRecordService)
+        public SalesRecordsController(SalesRecordService salesRecordService)
         {
             _salesRecordService = salesRecordService;
         }
